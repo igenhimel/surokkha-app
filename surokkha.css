@@ -1,0 +1,29 @@
+*{
+    font-family: 'AdorshoLipi', sans-serif;
+
+}
+
+
+.surokkha-nav-link li a{
+    font-size: 14px;
+} 
+
+.navbarbg{
+    background-color: #f9fbff;
+}
+.navbtn{
+    background: #f26d3e!important;
+    color: white!important;
+} 
+.active{
+    font-weight: bold;
+    color: dodgerblue!important;
+}
+
+.bg2{
+    background-color:darkslategrey;
+}
+
+.bg2 ul li a{
+    color:white!important;
+}
