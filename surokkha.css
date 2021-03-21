@@ -56,7 +56,26 @@
     background:linear-gradient(90deg,rgb(255, 175, 55) 30%,rgb(238, 189, 117)100%);
     opacity: 0.8;
 }
- 
+
+.vaccine-reg-text{
+    font-size: 25px;
+    color:darkblue;
+    font-weight: bold;
+}
+ .signup{
+     margin-bottom: 80px;
+ }
+
+ .status{
+     background-color: white;
+     
+ }
+ .vaccine-text{
+    font-size: 18px;
+    color:darkblue;
+    font-weight: bold;
+}
+
 
 @media only screen and (max-width: 768px) {
     .navbarImg{
