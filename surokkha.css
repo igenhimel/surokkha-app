@@ -33,6 +33,34 @@
     width: 200px;
 } 
 
+
+.line-1{
+    
+    content: '';
+    position: absolute;
+    background-color: #092753;
+    height: 10px;
+    bottom: 0;
+    left: 50px;
+    right: 50px; 
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.line-2{
+    content: '';
+    position: absolute;
+    width: 10px;
+    bottom: 10px;
+    top:10px;
+    left: 0;
+    border-radius: 0 4px 4px 0;
+
+}
+
+
+
+
 .registration{
     background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20200328/pngtree-virus-vaccine-reagent-bottle-background-image_332907.jpg");
     background-position: center top;
@@ -74,6 +102,11 @@
     font-size: 18px;
     color:darkblue;
     font-weight: bold;
+}
+
+.card-sign:hover{
+    background-color: #daedff;;
+    transition: 1s;
 }
 
 
