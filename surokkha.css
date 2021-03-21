@@ -68,7 +68,7 @@
 
  .status{
      background-color: white;
-     
+      
  }
  .vaccine-text{
     font-size: 18px;
@@ -81,4 +81,7 @@
     .navbarImg{
         width: 100px;
     }
-}
+    .signup{
+        margin-bottom: 20px;
+    }
+}    
