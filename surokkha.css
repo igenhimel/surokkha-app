@@ -29,10 +29,11 @@
     color:white!important;
 } 
 
+.navbarImg{
+    width: 200px;
+} 
 
-
-
-.section-5{
+.registration{
     background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20200328/pngtree-virus-vaccine-reagent-bottle-background-image_332907.jpg");
     background-position: center top;
     background-attachment:fixed;
@@ -43,7 +44,8 @@
     background-size: cover;
 }
 
-.section-5::before{
+
+.registration::before{
     content: '';
     position: absolute;
     left: 0;
@@ -55,3 +57,9 @@
     opacity: 0.8;
 }
  
+
+@media only screen and (max-width: 768px) {
+    .navbarImg{
+        width: 100px;
+    }
+}
