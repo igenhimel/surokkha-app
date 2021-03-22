@@ -20,6 +20,22 @@
         font-size: 20px;
     }
 
-  
+    .linecall{
+        border-right: 0;
+       
+    }
+    .linecall-1{
+       
+        border-bottom: 0.5px solid rgba(0,0,0,0.5);;
+    }
+
+     .call{
+    
+       
+       top:50px
+    }
+    .shadow-call{
+        box-shadow:0px 3px 3px 0px rgb(0 0 0 / 10%)
+    }
   
 }    

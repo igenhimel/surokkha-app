@@ -87,6 +87,10 @@
 
 }
 
+.shadow-call{
+    box-shadow: 1px 2px 5px 0px rgba(0,0,0,0.1);
+}
+
 
 
 
@@ -102,7 +106,41 @@
 
 .reg-row{
     min-height: 600px;
-}  
+} 
+
+.icon-bg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:lightgray;
+}
+
+.icon-bg{
+    position: relative;
+}
+
+.icon-bg i{
+    position: absolute;
+    top:5px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    color: green;
+
+}
+
+.call{
+    position:relative;
+    bottom: 50px;
+    z-index: 1;
+}
+
+.linecall{
+   position: relative;
+   border-right: 0.1px solid rgba(0, 0, 0,0.3);
+
+}
+
 
 
 
