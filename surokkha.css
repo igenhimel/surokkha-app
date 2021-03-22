@@ -97,8 +97,11 @@
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    min-height: 80vh;
     background-size: cover;
+}
+
+.reg-row{
+    min-height: 600px;
 }
 
 
