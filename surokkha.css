@@ -3,6 +3,31 @@
 
 }
 
+.navbar{
+    overflow: hidden;
+}
+
+.nav-link{
+    position: relative;
+    cursor: pointer;
+
+}
+
+.nav-link::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -35px;
+    background: #092753;
+    height: 10px; 
+    transform: scale(0);  
+  
+}
+.nav-link:hover::before{
+    transform: scale(1);
+    transition: 0.7s;
+}
 
 
 .surokkha-nav-link li a{
@@ -33,10 +58,13 @@
     width: 200px;
 } 
 
-
 .line-1{
+    position: relative;
+    cursor: pointer;
+}
+.line-1::after{
     
-    content: '';
+   content: '';
     position: absolute;
     background-color: #092753;
     height: 10px;
@@ -45,10 +73,11 @@
     right: 50px; 
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    
 }
 
 .line-2{
-    content: '';
+     
     position: absolute;
     width: 10px;
     bottom: 10px;
@@ -109,12 +138,34 @@
     transition: 1s;
 }
 
+.stat-hover-1:hover div{
+background-color: #dfffda;
+transition: 1s;
+}
+.stat-hover-2:hover div{
+    background-color: #feffda;;
+    transition: 1s;
+}
+.stat-hover-3:hover div{
+    background-color: #dafff2;
+    transition: 1s;
+}
 
-@media only screen and (max-width: 768px) {
-    .navbarImg{
-        width: 100px;
-    }
-    .signup{
-        margin-bottom: 20px;
-    }
-}    
+.stat-hover-4:hover div{
+    background-color: #dafff6;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
