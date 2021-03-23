@@ -199,9 +199,29 @@ transition: 1s;
 }
 
 
+.rules-text{
+    font-size: 15px;
+}
 
+.shadow-rules{
+    box-shadow:
+    0 4px 4px hsl(0deg 0% 73% / 25%);
+}
 
+.card-header{
+    position: relative;
+}
 
+.title-card-rule::before{
+   content: '';
+   position: absolute;
+   left: 25px;
+   top: 20px;
+   bottom: 20px;
+   width: 5px;
+   background-color: red;
+
+}
 
 
 
