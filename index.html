@@ -12,9 +12,7 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <title>সুরক্ষাঃ কোভিড-১৯ ভ্যাক্সিনের জন্য নিবন্ধন করুন</title>
-    <style>
-
-    </style>
+   
 </head>
 
 <body>
@@ -29,13 +27,13 @@
                 </span></button>
             <div class=" collapse navbar-collapse offset-xl-2" id="navbarNav">
                 <ul class="navbar-nav surokkha-nav-link">
-                    <li class="nav-item"><a class=" nav-link text-primary active" href="#">হোম</a></li>
-                    <li class="nav-item"><a href="#" class=" nav-link text-info" href="">নিবন্ধন</a></li>
-                    <li class="nav-item"><a href="#" class=" nav-link text-info" href="">নিবন্ধন স্ট্যাটাস</a></li>
-                    <li class="nav-item"><a href="#" class=" nav-link text-info" href="">টিকা কার্ড সংগ্রহ</a></li>
-                    <li class="nav-item"><a class=" nav-link text-info" href="">টিকা সনদ সংগ্রহ</a></li>
-                    <li class="nav-item"><a class=" nav-link text-info" href="">সহায়িকা</a></li>
-                    <li class="nav-item mr-2"><a class=" nav-link text-info" href="">সচরাচর জিজ্ঞাসা</a></li>
+                    <li class="nav-item"><a data-scroll-nav='0' class=" nav-link text-primary active" >হোম</a></li>
+                    <li class="nav-item"><a data-scroll-nav='1' href="#" class=" nav-link text-info">নিবন্ধন</a></li>
+                    <li class="nav-item"><a data-scroll-nav='2' href="#" class=" nav-link text-info">নিবন্ধন স্ট্যাটাস</a></li>
+                    <li class="nav-item"><a data-scroll-nav='3' href="#" class=" nav-link text-info">টিকা কার্ড সংগ্রহ</a></li>
+                    <li class="nav-item"><a  data-scroll-nav='4'class=" nav-link text-info" href="#">টিকা সনদ সংগ্রহ</a></li>
+                    <li class="nav-item"><a data-scroll-nav='5' class=" nav-link text-info" href="#">সহায়িকা</a></li>
+                    <li class="nav-item mr-2"><a data-scroll-nav='6' class=" nav-link text-info" href="#">সচরাচর জিজ্ঞাসা</a></li>
 
 
                 </ul>
@@ -47,21 +45,7 @@
 
     </nav>
 
- 
-   
-
-
-
-
-
-
-
-
-
-
- 
-
-    <section class="registration">
+    <section class="registration" data-scroll-index='0'>
         <div class="container">
 
             <div class="row d-flex flex-row justify-content-center align-items-center reg-row">
@@ -129,6 +113,7 @@
         </div>
 
     </section>
+    
 
     <section class="call ">
         <div class="container">
@@ -181,7 +166,7 @@
 
     </section>
 
-    <section class="mt-5 pt-5 mt-md-0 pt-md-0 rules">
+    <section class="mt-5 pt-5 mt-md-0 pt-md-0 rules" data-scroll-index='5'>
 
         <div class="container">
             <div class="card border-0 shadow-rules rounded mb-5">
@@ -234,7 +219,7 @@
     </section>
 
 
-    <section class="mujib">
+    <section data-scroll-index='6' class="mujib">
 
         <div class="container">
             <div class="card border-0 shadow-rules rounded mb-5">
@@ -287,7 +272,7 @@
     </section>
 
 
-    <section class="footer d-flex flex-row justify-content-center align-items-center">
+    <section  class="footer d-flex flex-row justify-content-center align-items-center">
         <div class="container">
             <div class="row mt-5 mb-5">
                 <div class="col-12 col-lg-2">
@@ -318,6 +303,8 @@
 
     </section>
 
+
+
   
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -327,11 +314,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
     </script>
-
+     <script src="js/scrollIt.min.js"></script>
 
 
 <script src="index.js"></script>
+<script>$(function() { $.scrollIt({
 
+topOffset:-110
+
+
+}); 
+
+});
+</script>
 </body>
 
 </html>
